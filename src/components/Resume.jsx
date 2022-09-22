@@ -39,7 +39,7 @@ const Resume = () => {
         <h2 className="text-cente text-2xl font-bold ml-2">Moksh Keloo</h2>
         <div className="flex">
           <a
-            href="https://www.www.linkedin.com/in/mokshkeloo"
+            href="https://www.linkedin.com/in/mokshkeloo"
             target="_blank"
             rel="noreferrer"
           >
