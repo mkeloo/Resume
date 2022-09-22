@@ -38,7 +38,11 @@ const Resume = () => {
       <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
         <h2 className="text-cente text-2xl font-bold ml-2">Moksh Keloo</h2>
         <div className="flex">
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.www.linkedin.com/in/mokshkeloo"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedinIn
               size={30}
               className="hover:scale-125 duration-300"
@@ -54,7 +58,7 @@ const Resume = () => {
           </a>
         </div>
       </div>
-      <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+      <div className="text-center py-4 text-xl m-1 font-bold uppercase tracking-wider">
         <div className="hidden sm:block">
           <p>
             Proven Leadership <span className="px-1">|</span> Web Development{' '}
@@ -79,8 +83,37 @@ const Resume = () => {
         efficiencies.
       </p>
 
+      <div>
+        <h5 className="text-center underline text-2xl font-bold py-3 mt-3">
+          Education
+        </h5>
+        <div className="flex justify-between">
+          <div>
+            <p className="flex flex-col">
+              <span className="font-bold">University of Florida</span>{' '}
+              <span>Bachelors of Science in Data Science</span>
+            </p>
+          </div>
+          <div>
+            <p className="font-bold">Expected in 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h5 className="text-center underline text-2xl font-bold py-3 mt-3">
+          Relevant Coursework
+        </h5>
+        <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <li>
+            COP3502C Programming Fundamentals I: (Core Java principles & OOP)
+          </li>
+          <li>COP3503C Programming Fundamentals II: (C++ principles & OOP)</li>
+        </ul>
+      </div>
+
       {/* Skills */}
-      <div className="text-center py-4 text-lg">
+      <div className="text-center py-4 md:text-lg text-md">
         <h5 className="text-center underline text-2xl font-bold py-3 mt-3">
           Technical Skills
         </h5>
@@ -169,7 +202,7 @@ const Resume = () => {
         Professional Experience
       </h5>
       {/* Experience */}
-      <div className="py-6">
+      <div className="py-6 m-2">
         <p className="italic">
           <span className="font-bold">
             Amnesty Floor Monitor (AFM) at Amazon Robotics Warehouse
@@ -202,7 +235,7 @@ const Resume = () => {
         </ul>
       </div>
       {/* Experience */}
-      <div className="py-6">
+      <div className="py-6 m-2">
         <p className="italic">
           <span className="font-bold">
             Virtual Customer Service Representative
