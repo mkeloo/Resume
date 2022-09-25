@@ -1,13 +1,14 @@
 import React from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import ResumeDoc from '../components/Resume.pdf';
 
 const Resume = () => {
-  const skillBeginner = [
-    { id: 9, name: 'Node JS' },
-    { id: 10, name: 'Express JS' },
-    { id: 11, name: 'MongoDB' },
-    { id: 14, name: 'Django' },
-  ];
+  // const skillBeginner = [
+  //   { id: 9, name: 'Node JS' },
+  //   { id: 10, name: 'Express JS' },
+  //   { id: 11, name: 'MongoDB' },
+  //   { id: 14, name: 'Django' },
+  // ];
 
   //   const skillIntermediate = [
   //     { id: 1, name: 'Java' },
@@ -325,6 +326,13 @@ const Resume = () => {
             their requirements and provide effective solutions
           </li>
         </ul>
+      </div>
+      <div className="flex justify-center p-6 mb-5">
+        <button className="border-2 rounded-xl border-black p-4 text-black font-bold hover:scale-110 hover:bg-black hover:text-white duration-300">
+          <a href={ResumeDoc} download="Resume.pdf">
+            Download Resume
+          </a>
+        </button>
       </div>
     </div>
   );
