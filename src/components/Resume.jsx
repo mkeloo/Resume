@@ -115,10 +115,26 @@ const Resume = () => {
       {/* Skills */}
       <div className="text-center py-4 md:text-lg text-md">
         <h5 className="text-center underline text-2xl font-bold py-3 mt-3">
-          Technical Skills
+          Technical Skills (2+ years of Experience)
         </h5>
 
-        <div className="flex flex-col-2 justify-center gap-2">
+        <p className="py-2">
+          Java | C++ | Python
+          <br />
+          HTML | CSS | JavaScript | TypeScript
+          <br />
+          React (Redux) | Angular | Vue | Next
+          <br />
+          Tailwind | Bootstrap | SCSS
+          <br />
+          Node | Express | Django | Firebase | REST API
+          <br />
+          MongoDB | SQL | PostgreSQL
+          <br />
+          Git | Figma (UI/UX) | Tableau | MS Suite
+        </p>
+
+        {/* <div className="flex flex-col-2 justify-center gap-2">
           <div className="flex flex-col items-center">
             <h5 className="text-center underline text-xl font-bold py-2 mt-3">
               Intermediate
@@ -194,7 +210,55 @@ const Resume = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
+      </div>
+
+      {/*  */}
+      <h5 className="text-center underline text-2xl font-bold py-2 mt-3">
+        Personal Experience
+      </h5>
+
+      {/* Experience */}
+      <div className="py-6 m-2">
+        <p className="italic">
+          <span className="font-bold">Website Developer / Web Designer</span>
+          <span className="px-2">|</span>Gainesville, FL
+        </p>
+        <p className="py-1 italic">
+          <a
+            className="text-blue-500 underline font-bold"
+            href="https://shoes4smiles.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            UF Shoes 4 Smiles
+          </a>{' '}
+          (December 2020 – Present)
+        </p>
+        <p>
+          Shoes 4 Smiles is a student organization dedicated to fundraising and
+          providing shoes and other basic necessities to people in local,
+          disadvantaged communities.
+        </p>
+
+        <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <li>
+            Ensured comprehensive mobile responsive UI layouts with
+            understanding of React JS and Tailwind CSS.
+          </li>
+          <li>
+            Troubleshoot issues and concerns, configure operation and analytic
+            plugins, and design changes as needed.
+          </li>
+          <li>
+            Worked directly with the President of the club to understand and
+            implement multiple technologies and programs for the organization.
+          </li>
+          <li>
+            Platform migration managing simple backend processes and ensuring a
+            smooth migration process.
+          </li>
+        </ul>
       </div>
 
       {/*  */}
