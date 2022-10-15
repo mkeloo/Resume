@@ -228,7 +228,7 @@ const Resume = () => {
         <p className="py-1 italic">
           <a
             className="text-blue-500 underline font-bold"
-            href="https://shoes4smiles.netlify.app/"
+            href="https://www.ufshoes4smiles.org/"
             target="_blank"
             rel="noreferrer"
           >
