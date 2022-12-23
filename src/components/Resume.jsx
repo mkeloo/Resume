@@ -124,9 +124,9 @@ const Resume = () => {
           <br />
           HTML | CSS | JavaScript | TypeScript
           <br />
-          React (Redux) | Angular | Vue | Next
+          React (Redux) | Next
           <br />
-          Tailwind | Bootstrap | SCSS
+          Tailwind | Bootstrap
           <br />
           Node | Express | Django | Firebase | REST API
           <br />
