@@ -92,11 +92,11 @@ const Resume = () => {
           <div>
             <p className="flex flex-col">
               <span className="font-bold">University of Florida</span>{' '}
-              <span>Bachelors of Science in Data Science</span>
+              <span>Bachelors of Science in Computer Science</span>
             </p>
           </div>
           <div>
-            <p className="font-bold">Expected in 2024</p>
+            <p className="font-bold">Expected in May 2024</p>
           </div>
         </div>
       </div>
@@ -124,13 +124,13 @@ const Resume = () => {
           <br />
           HTML | CSS | JavaScript | TypeScript
           <br />
-          React (Redux) | Next
+          ReactJS (Redux) | NextJS
           <br />
           Tailwind | Bootstrap
           <br />
           Node | Express | Django | Firebase | REST API
           <br />
-          MongoDB | SQL | PostgreSQL
+          MongoDB | MySQL | PostgreSQL
           <br />
           Git | Figma (UI/UX) | Tableau | MS Suite
         </p>
