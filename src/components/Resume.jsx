@@ -107,8 +107,9 @@ const Resume = () => {
         </h5>
         <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
           <li>
-            COP3502C Programming Fundamentals I: (Core Java principles & OOP)
+            COP 3530 Data Structures & Algorithms
           </li>
+          <li>CDA 3101 Intro to Computer Organization</li>
           <li>COP3503C Programming Fundamentals II: (C++ principles & OOP)</li>
         </ul>
       </div>
