@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import ResumeDoc from '../components/Resume.pdf';
+import ResumeDoc from '../components/Moksh_Keloo_Resume.pdf';
 
 const Resume = () => {
   // const skillBeginner = [
