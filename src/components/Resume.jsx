@@ -330,7 +330,7 @@ const Resume = () => {
       </div>
       <div className="flex justify-center p-6 mb-5">
         <button className="border-2 rounded-xl border-black p-4 text-black font-bold hover:scale-110 hover:bg-black hover:text-white duration-300">
-          <a href={ResumeDoc} download="Resume.pdf">
+          <a href={ResumeDoc} download="Moksh_Keloo_Resume.pdf">
             Download Resume
           </a>
         </button>
