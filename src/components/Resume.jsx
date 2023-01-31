@@ -228,7 +228,7 @@ const Resume = () => {
           </span>
           <span className="px-2">|</span>Remote
         </p>
-        <p className="py-1 italic">Kera (May 2019 – September 2021)</p>
+        <p className="py-1 italic">Kera (December 2021 – October 2022)</p>
         <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
           <li>
            Assisted the lead developer in designing, developing, and maintaining the company's website, utilizing Next JS framework, TypeScript and Firebase for authentication and storage solutions.
@@ -262,7 +262,7 @@ const Resume = () => {
           >
             UF Shoes 4 Smiles
           </a>{' '}
-          (December 2020 – Present)
+          (October 2020 – Present)
         </p>
         <p>
           Shoes 4 Smiles is a student organization dedicated to fundraising and
@@ -290,71 +290,7 @@ const Resume = () => {
         </ul>
       </div>
 
-//       {/*  */}
-//       <h5 className="text-center underline text-2xl font-bold py-2 mt-3">
-//         Professional Experience
-//       </h5>
-//       {/* Experience */}
-//       <div className="py-6 m-2">
-//         <p className="italic">
-//           <span className="font-bold">
-//             Amnesty Floor Monitor (AFM) at Amazon Robotics Warehouse
-//           </span>
-//           <span className="px-2">|</span>Jacksonville, FL
-//         </p>
-//         <p className="py-1 italic">Amazon.com (December 2021 – August 2022)</p>
-//         <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-//           <li>
-//             Diagnosed problematic and disabled robotic drives units to ensure
-//             smooth operations on the AR Floor for the associates.
-//           </li>
-//           <li>
-//             Assisted inbound and outbound teams in accomplishing daily
-//             performance targets by fostering optimum floor health on the Amazon
-//             Robotics (AR) floor.
-//           </li>
-//           <li>
-//             Removed obstacles and merchandise from the AR Floor to optimize
-//             robotic drive and pod functionality.
-//           </li>
-//           <li>
-//             Retrieved orders rapidly to meet demanding efficiency targets during
-//             Prime Day and other peak seasons
-//           </li>
-//           <li>
-//             Accomplished targets by prioritizing tasks well and striving
-//             diligently.
-//           </li>
-//         </ul>
-//       </div>
-//       {/* Experience */}
-//       <div className="py-6 m-2">
-//         <p className="italic">
-//           <span className="font-bold">
-//             Virtual Customer Service Representative
-//           </span>
-//           <span className="px-2">|</span>Jacksonville, FL
-//         </p>
-//         <p className="py-1 italic">Amazon.com (May 2019 – September 2021)</p>
-//         <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-//           <li>
-//             Provided customers with product concerns while offering great
-//             experiences through timely assistance.
-//           </li>
-//           <li>
-//             Delivered detailed information on navigating Amazon services and its
-//             self-service systems.
-//           </li>
-//           <li>
-//             Maintained an in-depth understanding of the company's goods and
-//             services in order to provide information on premium offers
-//           </li>
-//           <li>
-//             Connected customers with constructive initiatives in order to assess
-//             their requirements and provide effective solutions
-//           </li>
-//         </ul>
-//       </div>
+
       <div className="flex justify-center p-6 mb-5">
         <button className="border-2 rounded-xl border-black p-4 text-black font-bold hover:scale-110 hover:bg-black hover:text-white duration-300">
           <a href={ResumeDoc} download="Moksh_Keloo_Resume.pdf">
